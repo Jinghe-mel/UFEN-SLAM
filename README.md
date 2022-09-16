@@ -18,4 +18,4 @@ Loss Track (ORB-SLAM3 VS UFEN-SLAM)
 
 Initialization Failure (ORB-SLAM3 VS UFEN-SLAM)
 
-![](Others/ORB_1.gif) ![](Others/UFEN_1.gif)
+![](Others/ORB_2.gif) ![](Others/UFEN_2.gif)
