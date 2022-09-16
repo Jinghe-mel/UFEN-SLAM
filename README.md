@@ -12,6 +12,10 @@ The link of EASI can be found in [EASI Dataset](https://github.com/Jinghe-mel/UF
 
 ## 2. Demo
 
-Tracking Loss (ORB-SLAM3 VS UFEN-SLAM)
+Loss Track (ORB-SLAM3 VS UFEN-SLAM)
+
+![](Others/ORB_1.gif) ![](Others/UFEN_1.gif)
+
+Initialization Failure (ORB-SLAM3 VS UFEN-SLAM)
 
 ![](Others/ORB_1.gif) ![](Others/UFEN_1.gif)
