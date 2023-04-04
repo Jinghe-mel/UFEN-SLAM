@@ -1,5 +1,5 @@
 # UFEN-SLAM
-
+Paper:Knowledge Distillation for Feature Extraction in Underwater VSLAM (ICRA 2023) [PDF](https://arxiv.org/abs/2303.17981)
 ## 1. Introduction
 
 UFEN is an underwater feature extraction and matching network.
@@ -19,3 +19,8 @@ Tracking Loss (ORB-SLAM3 VS UFEN-SLAM)
 Initialization Failure (ORB-SLAM3 VS UFEN-SLAM)
 
 ![](Others/ORB_2.gif) ![](Others/UFEN_2.gif)
+
+## 3. UFEN-SLAM
+Code of UFEN-SLAM will be public shortly.
+
+
