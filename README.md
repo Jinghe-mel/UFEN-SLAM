@@ -1,5 +1,5 @@
 # UFEN-SLAM
-Paper:Knowledge Distillation for Feature Extraction in Underwater VSLAM (ICRA 2023) [PDF](https://arxiv.org/abs/2303.17981)
+Paper: **Knowledge Distillation for Feature Extraction in Underwater VSLAM (ICRA 2023)** [PDF](https://arxiv.org/abs/2303.17981)
 ## 1. Introduction
 
 UFEN is an underwater feature extraction and matching network.
