@@ -1,4 +1,4 @@
-Here is the [EASI DATASET](https://cloudstor.aarnet.edu.au/plus/s/G9JPtMI9sLbUE4l)
+The EASI Dataset is now available on [Hugging Face](https://huggingface.co/datasets/Jinghey/EASI_Dataset).
 
 It has ten sequences in three turbidity levels.
 
