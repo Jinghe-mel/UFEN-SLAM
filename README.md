@@ -1,5 +1,6 @@
 # UFEN-SLAM
-Paper: **Knowledge Distillation for Feature Extraction in Underwater VSLAM (ICRA 2023)** [PDF](https://arxiv.org/abs/2303.17981)
+Paper: **Knowledge Distillation for Feature Extraction in Underwater VSLAM (ICRA 2023)** [ArXiv](https://arxiv.org/abs/2303.17981) or [IEEE](https://ieeexplore.ieee.org/document/10161047)
+
 ## 1. Introduction
 
 UFEN is an underwater feature extraction and matching network.
@@ -8,7 +9,7 @@ We use in-air RGBD data to generate synthetic underwater images and employ these
 Refer to [GCNv2](https://github.com/jiexiong2016/GCNv2_SLAM), We embed UFEN into the [ORB-SLAM3](https://github.com/UZ-SLAMLab/ORB_SLAM3) framework to replace the ORB feature. The code of UFEN-SLAM will be public shortly.
 
 We also built a new underwater dataset in different water turbidities with groundtruth measurements named EASI.
-The link of EASI can be found in [EASI Dataset](https://github.com/Jinghe-mel/UFEN-SLAM/tree/main/EASI%20Dataset).
+The EASI dataset can be found in [EASI Dataset](https://github.com/Jinghe-mel/UFEN-SLAM/tree/main/EASI%20Dataset).
 
 ## 2. Demo
 
@@ -21,6 +22,16 @@ Initialization Failure (ORB-SLAM3 VS UFEN-SLAM)
 ![](Others/ORB_2.gif) ![](Others/UFEN_2.gif)
 
 ## 3. UFEN-SLAM
-Code of UFEN-SLAM will be public shortly.
+The code of UFEN-SLAM will be public shortly.
 
+## Citation
 
+Please cite our papers if you use the EASI dataset. 
+```
+@INPROCEEDINGS{10161047,
+  author={Yang, Jinghe and Gong, Mingming and Nair, Girish and Lee, Jung Hoon and Monty, Jason and Pu, Ye},
+  booktitle={2023 IEEE International Conference on Robotics and Automation (ICRA)}, 
+  title={Knowledge Distillation for Feature Extraction in Underwater VSLAM}, 
+  year={2023},
+  doi={10.1109/ICRA48891.2023.10161047}}
+```
