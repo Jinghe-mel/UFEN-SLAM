@@ -21,12 +21,17 @@ Initialization Failure (ORB-SLAM3 VS UFEN-SLAM)
 
 ![](Others/ORB_2.gif) ![](Others/UFEN_2.gif)
 
-## 3. UFEN-SLAM
+## 3. UFEN feature matching implementation
+The fast implementation code of UFEN feature matching is public in [UFEN_Demo](https://github.com/Jinghe-mel/UFEN-SLAM/tree/main/UFEN_Demo).
+The original weight can be found in [SuperPoint](https://github.com/magicleap/SuperPointPretrainedNetwork).
+The weights of UFEN can be downloaded in [EASI Dataset](https://github.com/Jinghe-mel/UFEN-SLAM/tree/main/EASI%20Dataset).
+
+## 4. UFEN-SLAM
 The code of UFEN-SLAM will be public shortly.
 
 ## Citation
 
-Please cite our papers if you use the EASI dataset. 
+Please cite our papers if you use the EASI dataset or the UFEN. 
 ```
 @INPROCEEDINGS{10161047,
   author={Yang, Jinghe and Gong, Mingming and Nair, Girish and Lee, Jung Hoon and Monty, Jason and Pu, Ye},
