@@ -24,7 +24,7 @@ Initialization Failure (ORB-SLAM3 VS UFEN-SLAM)
 The fast implementation code of UFEN feature matching is public in [UFEN_Demo](https://github.com/Jinghe-mel/UFEN-SLAM/tree/main/UFEN_Demo). <br>
 The original weight can be found in [SuperPoint](https://github.com/magicleap/SuperPointPretrainedNetwork). <br>
 
-The weights of UFEN can be downloaded. <br>
+The weights of UFEN can be downloaded in [weights](https://github.com/Jinghe-mel/UFEN-SLAM/tree/main/UFEN_Demo/weights). <br>
 (UFEN_v1 is the retrained version from the original paper, while UFEN_v2 is an improved version achieved by fine-tuning the parameters.)
 
 ## 4. UFEN-SLAM
