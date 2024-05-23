@@ -4,9 +4,8 @@ Paper: **Knowledge Distillation for Feature Extraction in Underwater VSLAM (ICRA
 ## 1. Introduction
 
 UFEN is an underwater feature extraction and matching network.
-We use in-air RGBD data to generate synthetic underwater images and employ these as the medium to distil knowledge from a teacher model [SuperPoint](https://github.com/magicleap/SuperPointPretrainedNetwork).
-
-Refer to [GCNv2](https://github.com/jiexiong2016/GCNv2_SLAM), We embed UFEN into the [ORB-SLAM3](https://github.com/UZ-SLAMLab/ORB_SLAM3) framework to replace the ORB feature. The code of UFEN-SLAM will be public shortly.
+We use in-air RGBD data to generate synthetic underwater images and employ these as the medium to distil knowledge from a teacher model [SuperPoint](https://github.com/magicleap/SuperPointPretrainedNetwork). <br>
+Refer to [GCNv2](https://github.com/jiexiong2016/GCNv2_SLAM), We embed UFEN into the [ORB-SLAM3](https://github.com/UZ-SLAMLab/ORB_SLAM3) framework to replace the ORB feature. The code of UFEN-SLAM will be public shortly. <br>
 
 We also built a new underwater dataset in different water turbidities with groundtruth measurements named EASI.
 The EASI dataset can be found in [EASI Dataset](https://github.com/Jinghe-mel/UFEN-SLAM/tree/main/EASI%20Dataset).
@@ -21,10 +20,12 @@ Initialization Failure (ORB-SLAM3 VS UFEN-SLAM)
 
 ![](Others/ORB_2.gif) ![](Others/UFEN_2.gif)
 
-## 3. UFEN feature matching implementation
-The fast implementation code of UFEN feature matching is public in [UFEN_Demo](https://github.com/Jinghe-mel/UFEN-SLAM/tree/main/UFEN_Demo).
-The original weight can be found in [SuperPoint](https://github.com/magicleap/SuperPointPretrainedNetwork).
-The weights of UFEN can be downloaded in [EASI Dataset](https://github.com/Jinghe-mel/UFEN-SLAM/tree/main/EASI%20Dataset).
+## 3. UFEN Feature Matching Implementation
+The fast implementation code of UFEN feature matching is public in [UFEN_Demo](https://github.com/Jinghe-mel/UFEN-SLAM/tree/main/UFEN_Demo). <br>
+The original weight can be found in [SuperPoint](https://github.com/magicleap/SuperPointPretrainedNetwork). <br>
+
+The weights of UFEN can be downloaded. <br>
+(UFEN_v1 is the retrained version from the original paper, while UFEN_v2 is an improved version achieved by fine-tuning the parameters.)
 
 ## 4. UFEN-SLAM
 The code of UFEN-SLAM will be public shortly.
