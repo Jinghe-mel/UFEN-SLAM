@@ -5,7 +5,10 @@ Paper: **Knowledge Distillation for Feature Extraction in Underwater VSLAM (ICRA
 
 UFEN is an underwater feature extraction and matching network.
 We use in-air RGBD data to generate synthetic underwater images and employ these as the medium to distil knowledge from a teacher model [SuperPoint](https://github.com/magicleap/SuperPointPretrainedNetwork). <br>
-Refer to [GCNv2](https://github.com/jiexiong2016/GCNv2_SLAM), We embed UFEN into the [ORB-SLAM3](https://github.com/UZ-SLAMLab/ORB_SLAM3) framework to replace the ORB feature. The code of UFEN-SLAM will be public shortly. <br>
+Refer to [GCNv2](https://github.com/jiexiong2016/GCNv2_SLAM), We embed UFEN into the [ORB-SLAM3](https://github.com/UZ-SLAMLab/ORB_SLAM3) framework to replace the ORB feature. The code of UFEN-SLAM will be public shortly. <be>
+
+The feature-matching code in Python has been released below. <br>
+The code of UFEN-SLAM will be public shortly. <be>
 
 We also built a new underwater dataset in different water turbidities with groundtruth measurements named EASI.
 The EASI dataset can be found in [EASI Dataset](https://github.com/Jinghe-mel/UFEN-SLAM/tree/main/EASI%20Dataset).
@@ -26,6 +29,8 @@ The original weight can be found in [SuperPoint](https://github.com/magicleap/Su
 
 The weights of UFEN can be downloaded in [weights](https://github.com/Jinghe-mel/UFEN-SLAM/tree/main/UFEN_Demo/weights). <br>
 (UFEN_v1 is the retrained version from the original paper, while UFEN_v2 is an improved version achieved by fine-tuning the parameters.)
+
+Image pairs are extracted from the  [EASI Dataset](https://github.com/Jinghe-mel/UFEN-SLAM/tree/main/EASI%20Dataset) and the [real underwater videos](https://ieeexplore.ieee.org/abstract/document/8968049).
 
 ## 4. UFEN-SLAM
 The code of UFEN-SLAM will be public shortly.
