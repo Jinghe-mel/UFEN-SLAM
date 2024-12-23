@@ -11,7 +11,8 @@ The feature-matching code in Python has been released below. <br>
 The code of UFEN-SLAM will be public shortly. <be>
 
 We also built a new underwater dataset in different water turbidities with groundtruth measurements named EASI.
-The EASI dataset can be found in [EASI Dataset](https://github.com/Jinghe-mel/UFEN-SLAM/tree/main/EASI%20Dataset).
+The EASI dataset can be found in [EASI Dataset](https://github.com/Jinghe-mel/UFEN-SLAM/tree/main/EASI%20Dataset).<br>
+A new challenging sequence, named EASI-T, with the highest turbidity and the heaviest flowing particles, is now available in EASI dataset.
 
 ## 2. Demo
 
